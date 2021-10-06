@@ -38,7 +38,7 @@
       flex: 3;
       order: 5  ;
     }
-    @media screen and (min-width: 320px) and (max-width: 1200px) {
+    @media screen and (min-width: 1200px) {
       #main {
         flex-direction: row;
       }
@@ -51,6 +51,26 @@
       order: 1;
       }
     } 
+
+
+
+    @media screen and (max-width: 320px) {
+      #main {
+        flex-direction: row;
+      }
+      #main main {
+      flex: 100%;
+      order: 1;
+      } 
+      #main aside {
+      flex: 15%;
+      order: 2;
+      }
+    } 
+
+
+
+
 </style>
 
 
