@@ -7,84 +7,29 @@
     <title>Marvel</title>
   </head>
 
-  <style>
-    #vrot{
-      display: flex;
-      flex-direction: column; 
-    }
-    #main {
-      display: flex;
-      flex-direction: column; 
-    }
-    #main main, #main aside {
-      background-color: #ddd;
-      margin: 10px;
-      padding: 10px;
-    }
-    #main aside {
-    flex: 25%;
-    min-height: 100%; 
-    order: 2;
-    } 
-    #main main {
-      flex: 100%;
-      order: 1;
-    }
-    #vrot form{   
-      flex: 50%;
-      order: 4;
-    }
-    #vrot table{
-      flex: 3;
-      order: 5  ;
-    }
-    @media screen and (min-width: 1200px) {
-      #main {
-        flex-direction: row;
-      }
-      #main main {
-      flex: 100%;
-      order: 2;
-      } 
-      #main aside {
-      flex: 15%;
-      order: 1;
-      }
-    } 
-
-</style>
-
-
-<body id="main">
-  <aside>   
-    <ul>
-        <li><a target="blank" href="https://marvel.com.ru" alt="" title="Главная страница">Главная</a></li>
-        <li><a target="blank" href="https://marvel.com.ru/soundtracks" alt="" title="Музыка">Музыка</a></li>
-        <li><a target="blank" href="https://marvel.com.ru/news" alt="" title="Новости">Новости</a></li>
-    </ul>
-</aside> 
 <main>
+	<body bgcolor="darkgrey"; style="margin:0">
+		<div id="main-aside-wrapper">
+<div class="logo_pad">
+		 <img class="logo" src="logo.jpg" alt="Marvel">
 
-<div id="vrot">
-            <header>
-              <div class="header" >
-                <img src="logo.jpg" alt="logo" class="logo" />
-                <div class="zagolovok">MARVEL </div>
-              </div>
-            </header>
-          
-           
+		<h2 class="logo_text">Герои киновселеенеой Marvel</h2>
 
-<div class="nav">
-        <p>
-            <a href="menu.html" alt="" >Mеню </a> 
-            <a href="Link1.html" alt="">Cсылка1</a>
-            <a href="Link2.html" alt="">Cсылка2</a>
-        </p>
-    </div>
-    
-      <hyper>
-      <ol type="1">
+		<nav class="navigate">
+		 <a target="blank" href="https://marvel.com.ru" alt="" title="Главная страница">Главная</a>
+       		 <a target="blank" href="https://marvel.com.ru/soundtracks" alt="" title="Музыка">Музыка</a>
+        	 <a target="blank" href="https://marvel.com.ru/news" alt="" title="Новости">Новости</a>
+		</nav>
+	</div>
+</br>
+</main>
+
+</div>
+		<h3 class="pre-text">Здесь вы можете просмотреть основных героев киновселенной Marvel и первое задание :)</h3>
+
+		<h2>1.Задание</h2>
+
+	<ol type="1">
 <li><p> Абсолютную гиперссылку на главную страницу сайта example.com - <a target="_blank" href="http://example.com/">example.com;</a></p></li>
 
 <li><p> Абсолютную на главную сайта example.com в протоколе https:
@@ -142,25 +87,30 @@
 <li><p>Относительная на страницу в каталоге двумя уровнями выше: <a target="blank" href=".. /.. /predpred.html">Ссылка</a></p></li>
 
 </ol>
+	<div id="container">
+		<div class="tablica">
+<h2>2.Герои Marvel</h2>
+	 <table class="selection" border="1" width="100%" cellpadding="5">
+	 <tr>
+		<th>Супергеройское прозвище</th>
+		<th>Железный человек</th>
+		<th>Человек-паук</th>
+		<th>Халк</th>
+	 </tr>
+	 <tr>
+		<th>Настоящие имя</th>
+		<td>Тони Старк</td>
+		<td>Питер Паркер</td>
+		<td>Брюс Беннер</td>
+		</tr>
+		<th>Рост героя</th>
+		<td>198 см</td>
+		<td>178 см</td>
+		<td>250 см</td>
+		</tr>
+ </table>
 
-      <table cellspacing="10" rules="all" height="300px" class="table" class="tablestyle">
-        <tr>
-          <th>Герой 1</th>
 
-          <th>Герой 2 </th>
-          <th>Герой 3 </th>   
-        </tr>
-        <tr>
-          <td>Ячейка 11 </td>
-          <td>Ячейка 12 </td>
-          <td>Ячейка 13 </td>
-        </tr>
-        <tr>
-          <td>Ячейка 21</td>
-          <td>Ячейка 22</td>
-          <td>Ячейка 23</td>
-        </tr>
-      </table>
         <form>
           <legend>Форма</legend>
           <p>Имя: <input type="text"></p>
@@ -185,9 +135,6 @@
       
     
   </div>
-  <footer class="footer">
-    Shapuvalenko Stanislav
-  </footer>
   </main>
  
   
