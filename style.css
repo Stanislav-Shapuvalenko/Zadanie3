@@ -55,12 +55,12 @@ flex-direction: column;
 
 .tablica
 {
-order: 2;
+order: 1;
 }
 
 .forma
 {
-order: 1;
+order: 2;
 }
 
 #main-aside-wrapper {
@@ -82,12 +82,12 @@ flex-direction: row-reverse;
 
 .tablica
 {
-order: 1;
+order: 2;
 }
 
 .forma
 {
-order: 2;
+order: 1;
 }
 }
 (c) Шапуваленко Станислав
