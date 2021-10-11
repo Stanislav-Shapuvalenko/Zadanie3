@@ -49,38 +49,46 @@ padding: 0px;
 
 #container
 {
-	display: flex;
-	flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 .tablica
 {
-	order: 2;
+order: 2;
 }
 
 .forma
 {
-	order: 1;
+order: 1;
 }
 
 #main-aside-wrapper {
-  display: flex;
-  flex-direction: row;
+display: flex;
+flex-direction: row;
 }
 
 #main-aside-wrapper aside {
-  flex: 1;
-  order: 2;
+flex: 1;
 }
 #main-aside-wrapper main {
-  flex: 1;
-  order: 1;
+flex: 1;
 }
 
-@media screen and (min-width: 800px) {
-  #main-aside-wrapper {
-    flex-direction: row-reverse;
-  }
+@media screen and (max-width: 980px) {
+#main-aside-wrapper {
+flex-direction: row-reverse;
+}
+
+.tablica
+{
+order: 1;
+}
+
+.forma
+{
+order: 2;
+}
 }
 (c) Шапуваленко Станислав
 
